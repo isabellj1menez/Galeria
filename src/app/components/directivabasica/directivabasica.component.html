@@ -1,0 +1,21 @@
+<!-- directivas estructural-->
+
+<div [ngSwitch]="cambiodevalor">
+    <p *ngSwitchCase="1">Parrafo 1 </p>
+    <p *ngSwitchCase="2">Parrafo 2 </p>
+    <p *ngSwitchCase="3">Parrafo 3 </p>
+    <div class="row">
+        <button (click)="incrementar()" type="button" class="btn btn-primary">Incrementar</button>
+        <button (click)="decrementar()" type="button" class="btn btn-primary">Decrementar</button>
+    </div>
+</div>
+
+
+<!-- directivas personalizadas -->
+
+<!-- directiva tipo atributo -->
+
+<p appCambiocolor>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur eius quas sed officiis doloremque cupiditate alias fugiat, odio accusantium quaerat, illo tempora veritatis, unde suscipit? Aliquam velit blanditiis debitis vero saepe, fugit, ex a molestias
+    optio nesciunt, quam obcaecati ratione? Atque voluptatem modi porro sapiente voluptatibus tempore magnam quasi minima!
+</p>
